@@ -1,0 +1,4 @@
+@ControleFuncionarios_HostAddress = http://localhost:5230
+
+GET {{ControleFuncionarios_HostAddress}}/weatherforecast/
+Accept: application/json
