@@ -49,7 +49,7 @@ namespace ControleFuncionarios.Services
             }
             
             string htmlContent = $@"
-                <h1>Registro de Atividades</h1>
+                <h1>Registro de Atividades - {dados.RespostaPerguntaUm}</h1>
                 <p><strong>Digite seu nome :</strong> {dados.RespostaPerguntaUm}</p>
                 <p><strong>Como foi o dia de hoje? :</strong> {dados.RespostaPerguntaDois}</p>
                 <p><strong>Houve alguma dificuldade? :</strong> {dados.RespostaPerguntaTres}</p>
