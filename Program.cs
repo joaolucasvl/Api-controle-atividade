@@ -27,7 +27,8 @@ builder.Services.AddCors(options =>
         {
        
             policy.WithOrigins("http://localhost:5173",
-                    "https://front-end-controle-atividades.netlify.app/")
+                    "https://front-end-controle-atividades.netlify.app",
+                    "https://api-controle-atividade.onrender.com")
                 .AllowAnyHeader()
                 .AllowAnyMethod();
         });
